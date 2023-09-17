@@ -17,7 +17,7 @@ function sumWhile(list) {
   return sum;
 }
 console.log(sumWhile([1, 2, 3, 4, 5]));
-function sumRecursion(list, index) {
+function sumRecursion(list, index = 0) {
   if (index === list.length) {
     return 0;
   }
